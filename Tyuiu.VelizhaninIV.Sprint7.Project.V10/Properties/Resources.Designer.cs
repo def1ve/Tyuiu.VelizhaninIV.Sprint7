@@ -73,6 +73,16 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2024_03_08 {
+            get {
+                object obj = ResourceManager.GetObject("2024-03-08", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cross_white {
             get {
                 object obj = ResourceManager.GetObject("cross white", resourceCulture);

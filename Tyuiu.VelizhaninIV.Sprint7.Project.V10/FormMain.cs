@@ -18,6 +18,7 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10
     {
         private Form activeForm;
         private Button currentButton;
+
         public FormMain()
         {
             InitializeComponent();
@@ -25,6 +26,7 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10
             this.Text = string.Empty;
         }
 
+        // Методы
         private void OpenChildForm (Form childForm, object btnSender)
         {
             if (activeForm != null)
@@ -70,5 +72,7 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10
             currentButton = null;
             BtnCloseChildForm_VIV.Visible = false;
         }
+
+
     }
 }

@@ -44,11 +44,5 @@
     <Compile Include="DataService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.VelizhaninIV.Sprint7.Project.V10.Test\Tyuiu.VelizhaninIV.Sprint7.Project.V10.Test.csproj">
-      <Project>{f2e6eecf-a8ad-4aac-ba70-8f126297e222}</Project>
-      <Name>Tyuiu.VelizhaninIV.Sprint7.Project.V10.Test</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

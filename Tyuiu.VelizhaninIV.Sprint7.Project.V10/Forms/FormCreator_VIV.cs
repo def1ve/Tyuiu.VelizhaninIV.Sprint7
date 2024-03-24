@@ -10,17 +10,18 @@ using System.Windows.Forms;
 
 namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10.Forms
 {
-    public partial class FormAbout_VIV : Form
+    public partial class FormCreator_VIV : Form
     {
-        public FormAbout_VIV()
+        public FormCreator_VIV()
         {
             InitializeComponent();
         }
 
-        private void BtnAboutCreator_VIV_Click(object sender, EventArgs e)
+        private void BtnAboutOK_VIV_Click(object sender, EventArgs e)
         {
-            FormCreator_VIV info = new FormCreator_VIV();
-            info.ShowDialog();
+            this.Close();
         }
+
+
     }
 }

@@ -31,15 +31,15 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.PanelMenu_VIV = new System.Windows.Forms.Panel();
+            this.btnAbout_VIV = new System.Windows.Forms.Button();
+            this.btnOrders_VIV = new System.Windows.Forms.Button();
             this.PanelLogo_VIV = new System.Windows.Forms.Panel();
             this.LabelLogo_VIV = new System.Windows.Forms.Label();
             this.PanelTitle_VIV = new System.Windows.Forms.Panel();
+            this.BtnCloseChildForm_VIV = new System.Windows.Forms.Button();
             this.LabelTitle_VIV = new System.Windows.Forms.Label();
             this.PanelMain_VIV = new System.Windows.Forms.Panel();
             this.pictureMain_VIV = new System.Windows.Forms.PictureBox();
-            this.BtnCloseChildForm_VIV = new System.Windows.Forms.Button();
-            this.btnAbout_VIV = new System.Windows.Forms.Button();
-            this.btnOrders_VIV = new System.Windows.Forms.Button();
             this.PanelMenu_VIV.SuspendLayout();
             this.PanelLogo_VIV.SuspendLayout();
             this.PanelTitle_VIV.SuspendLayout();
@@ -56,88 +56,8 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10
             this.PanelMenu_VIV.Dock = System.Windows.Forms.DockStyle.Left;
             this.PanelMenu_VIV.Location = new System.Drawing.Point(0, 0);
             this.PanelMenu_VIV.Name = "PanelMenu_VIV";
-            this.PanelMenu_VIV.Size = new System.Drawing.Size(200, 636);
+            this.PanelMenu_VIV.Size = new System.Drawing.Size(200, 520);
             this.PanelMenu_VIV.TabIndex = 0;
-            // 
-            // PanelLogo_VIV
-            // 
-            this.PanelLogo_VIV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(111)))), ((int)(((byte)(151)))));
-            this.PanelLogo_VIV.Controls.Add(this.LabelLogo_VIV);
-            this.PanelLogo_VIV.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelLogo_VIV.Location = new System.Drawing.Point(0, 0);
-            this.PanelLogo_VIV.Name = "PanelLogo_VIV";
-            this.PanelLogo_VIV.Size = new System.Drawing.Size(200, 55);
-            this.PanelLogo_VIV.TabIndex = 0;
-            // 
-            // LabelLogo_VIV
-            // 
-            this.LabelLogo_VIV.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LabelLogo_VIV.AutoSize = true;
-            this.LabelLogo_VIV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelLogo_VIV.ForeColor = System.Drawing.Color.White;
-            this.LabelLogo_VIV.Location = new System.Drawing.Point(56, 19);
-            this.LabelLogo_VIV.Name = "LabelLogo_VIV";
-            this.LabelLogo_VIV.Size = new System.Drawing.Size(72, 20);
-            this.LabelLogo_VIV.TabIndex = 0;
-            this.LabelLogo_VIV.Text = "Sprint 7";
-            this.LabelLogo_VIV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PanelTitle_VIV
-            // 
-            this.PanelTitle_VIV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(143)))), ((int)(((byte)(175)))));
-            this.PanelTitle_VIV.Controls.Add(this.BtnCloseChildForm_VIV);
-            this.PanelTitle_VIV.Controls.Add(this.LabelTitle_VIV);
-            this.PanelTitle_VIV.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelTitle_VIV.Location = new System.Drawing.Point(200, 0);
-            this.PanelTitle_VIV.Name = "PanelTitle_VIV";
-            this.PanelTitle_VIV.Size = new System.Drawing.Size(818, 55);
-            this.PanelTitle_VIV.TabIndex = 1;
-            // 
-            // LabelTitle_VIV
-            // 
-            this.LabelTitle_VIV.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LabelTitle_VIV.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelTitle_VIV.ForeColor = System.Drawing.Color.White;
-            this.LabelTitle_VIV.Location = new System.Drawing.Point(272, 15);
-            this.LabelTitle_VIV.Name = "LabelTitle_VIV";
-            this.LabelTitle_VIV.Size = new System.Drawing.Size(274, 25);
-            this.LabelTitle_VIV.TabIndex = 0;
-            this.LabelTitle_VIV.Text = "Главная";
-            this.LabelTitle_VIV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PanelMain_VIV
-            // 
-            this.PanelMain_VIV.Controls.Add(this.pictureMain_VIV);
-            this.PanelMain_VIV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelMain_VIV.Location = new System.Drawing.Point(200, 55);
-            this.PanelMain_VIV.Name = "PanelMain_VIV";
-            this.PanelMain_VIV.Size = new System.Drawing.Size(818, 581);
-            this.PanelMain_VIV.TabIndex = 2;
-            // 
-            // pictureMain_VIV
-            // 
-            this.pictureMain_VIV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureMain_VIV.Image = global::Tyuiu.VelizhaninIV.Sprint7.Project.V10.Properties.Resources._1589354392_942;
-            this.pictureMain_VIV.Location = new System.Drawing.Point(-1, -1);
-            this.pictureMain_VIV.Name = "pictureMain_VIV";
-            this.pictureMain_VIV.Size = new System.Drawing.Size(819, 582);
-            this.pictureMain_VIV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureMain_VIV.TabIndex = 0;
-            this.pictureMain_VIV.TabStop = false;
-            // 
-            // BtnCloseChildForm_VIV
-            // 
-            this.BtnCloseChildForm_VIV.FlatAppearance.BorderSize = 0;
-            this.BtnCloseChildForm_VIV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCloseChildForm_VIV.Image = global::Tyuiu.VelizhaninIV.Sprint7.Project.V10.Properties.Resources.cross_white;
-            this.BtnCloseChildForm_VIV.Location = new System.Drawing.Point(0, 4);
-            this.BtnCloseChildForm_VIV.Name = "BtnCloseChildForm_VIV";
-            this.BtnCloseChildForm_VIV.Size = new System.Drawing.Size(58, 48);
-            this.BtnCloseChildForm_VIV.TabIndex = 1;
-            this.BtnCloseChildForm_VIV.UseVisualStyleBackColor = true;
-            this.BtnCloseChildForm_VIV.Click += new System.EventHandler(this.BtnCloseChildForm_VIV_Click);
             // 
             // btnAbout_VIV
             // 
@@ -179,12 +99,92 @@ namespace Tyuiu.VelizhaninIV.Sprint7.Project.V10
             this.btnOrders_VIV.UseVisualStyleBackColor = true;
             this.btnOrders_VIV.Click += new System.EventHandler(this.btnOrders_VIV_Click);
             // 
+            // PanelLogo_VIV
+            // 
+            this.PanelLogo_VIV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(111)))), ((int)(((byte)(151)))));
+            this.PanelLogo_VIV.Controls.Add(this.LabelLogo_VIV);
+            this.PanelLogo_VIV.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelLogo_VIV.Location = new System.Drawing.Point(0, 0);
+            this.PanelLogo_VIV.Name = "PanelLogo_VIV";
+            this.PanelLogo_VIV.Size = new System.Drawing.Size(200, 55);
+            this.PanelLogo_VIV.TabIndex = 0;
+            // 
+            // LabelLogo_VIV
+            // 
+            this.LabelLogo_VIV.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelLogo_VIV.AutoSize = true;
+            this.LabelLogo_VIV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelLogo_VIV.ForeColor = System.Drawing.Color.White;
+            this.LabelLogo_VIV.Location = new System.Drawing.Point(56, 19);
+            this.LabelLogo_VIV.Name = "LabelLogo_VIV";
+            this.LabelLogo_VIV.Size = new System.Drawing.Size(72, 20);
+            this.LabelLogo_VIV.TabIndex = 0;
+            this.LabelLogo_VIV.Text = "Sprint 7";
+            this.LabelLogo_VIV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // PanelTitle_VIV
+            // 
+            this.PanelTitle_VIV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(143)))), ((int)(((byte)(175)))));
+            this.PanelTitle_VIV.Controls.Add(this.BtnCloseChildForm_VIV);
+            this.PanelTitle_VIV.Controls.Add(this.LabelTitle_VIV);
+            this.PanelTitle_VIV.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelTitle_VIV.Location = new System.Drawing.Point(200, 0);
+            this.PanelTitle_VIV.Name = "PanelTitle_VIV";
+            this.PanelTitle_VIV.Size = new System.Drawing.Size(624, 55);
+            this.PanelTitle_VIV.TabIndex = 1;
+            // 
+            // BtnCloseChildForm_VIV
+            // 
+            this.BtnCloseChildForm_VIV.FlatAppearance.BorderSize = 0;
+            this.BtnCloseChildForm_VIV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnCloseChildForm_VIV.Image = global::Tyuiu.VelizhaninIV.Sprint7.Project.V10.Properties.Resources.cross_white;
+            this.BtnCloseChildForm_VIV.Location = new System.Drawing.Point(0, 4);
+            this.BtnCloseChildForm_VIV.Name = "BtnCloseChildForm_VIV";
+            this.BtnCloseChildForm_VIV.Size = new System.Drawing.Size(58, 48);
+            this.BtnCloseChildForm_VIV.TabIndex = 1;
+            this.BtnCloseChildForm_VIV.UseVisualStyleBackColor = true;
+            this.BtnCloseChildForm_VIV.Click += new System.EventHandler(this.BtnCloseChildForm_VIV_Click);
+            // 
+            // LabelTitle_VIV
+            // 
+            this.LabelTitle_VIV.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LabelTitle_VIV.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelTitle_VIV.ForeColor = System.Drawing.Color.White;
+            this.LabelTitle_VIV.Location = new System.Drawing.Point(175, 15);
+            this.LabelTitle_VIV.Name = "LabelTitle_VIV";
+            this.LabelTitle_VIV.Size = new System.Drawing.Size(274, 25);
+            this.LabelTitle_VIV.TabIndex = 0;
+            this.LabelTitle_VIV.Text = "Главная";
+            this.LabelTitle_VIV.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // PanelMain_VIV
+            // 
+            this.PanelMain_VIV.Controls.Add(this.pictureMain_VIV);
+            this.PanelMain_VIV.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelMain_VIV.Location = new System.Drawing.Point(200, 55);
+            this.PanelMain_VIV.Name = "PanelMain_VIV";
+            this.PanelMain_VIV.Size = new System.Drawing.Size(624, 465);
+            this.PanelMain_VIV.TabIndex = 2;
+            // 
+            // pictureMain_VIV
+            // 
+            this.pictureMain_VIV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureMain_VIV.Image = global::Tyuiu.VelizhaninIV.Sprint7.Project.V10.Properties.Resources._1589354392_942;
+            this.pictureMain_VIV.Location = new System.Drawing.Point(-1, -1);
+            this.pictureMain_VIV.Name = "pictureMain_VIV";
+            this.pictureMain_VIV.Size = new System.Drawing.Size(625, 466);
+            this.pictureMain_VIV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureMain_VIV.TabIndex = 0;
+            this.pictureMain_VIV.TabStop = false;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1018, 636);
+            this.ClientSize = new System.Drawing.Size(824, 520);
             this.Controls.Add(this.PanelMain_VIV);
             this.Controls.Add(this.PanelTitle_VIV);
             this.Controls.Add(this.PanelMenu_VIV);
